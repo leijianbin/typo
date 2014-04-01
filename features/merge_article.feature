@@ -9,6 +9,7 @@ Feature: Merge Articles
 
         Given the following users exist:
             | profile_id | login  | name  | password | email           | state  |
+            | 1          | user_0 | User0 | 1234567  | tes@example.com | active |
             | 2          | user_1 | User1 | 1234567  | foo@example.com | active |
             | 3          | user_2 | User2 | 1234567  | bar@example.com | active |
 
